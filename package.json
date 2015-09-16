@@ -1,0 +1,16 @@
+{
+  "name": "idm",
+  "version": "1.0.0",
+  "description": "Identity Manager",
+  "main": "application/server/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "The Manchester College <oridgway@themanchestercollege.ac.uk>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.3",
+    "express-ntlm": "^2.1.4",
+    "ldapjs": "^0.7.1"
+  }
+}
